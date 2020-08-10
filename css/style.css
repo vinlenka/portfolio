@@ -572,7 +572,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-object-fit: cover;
     object-fit: cover;
     overflow: hidden;
-    /* border-bottom-right-radius: 200px;   */
+    border-bottom-right-radius: 200px;  
   }
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-wrap {
@@ -894,7 +894,6 @@ h1, h2, h3, h4, h5, h6 {
 
     .topnav nav{
       float:right;
-      background-color: indigo;
       margin-left: 40px;
 
     } 
@@ -924,7 +923,6 @@ h1, h2, h3, h4, h5, h6 {
     }
     @media (max-width: 700px) {
       .topnav li  {
-        background-color: hotpink; 
         float:right;
         overflow: auto;} }
 
