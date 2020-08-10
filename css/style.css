@@ -149,8 +149,8 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ced4da !important; }
 
 .site-footer {
-  padding-top: 17rem;
-  padding-bottom: 4rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background: #333333; }
   .site-footer p {
     color: #8c8c8c; }
@@ -560,7 +560,20 @@ h1, h2, h3, h4, h5, h6 {
     right: 50%;
     min-height: 600px;
     overflow: hidden;
-    border-bottom-right-radius: 200px; }
+    border-bottom-right-radius: 200px; 
+  }
+ 
+
+  .site-blocks-cover .img-wrap img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    /* border-bottom-right-radius: 200px;   */
+  }
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-wrap {
         width: 100%;
@@ -576,6 +589,7 @@ h1, h2, h3, h4, h5, h6 {
           left: 0;
           right: 0;
           bottom: 0; } }
+          
     .site-blocks-cover .img-wrap .slide {
       height: 100vh;
       position: relative; }
@@ -590,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 3;
     position: relative; }
     .site-blocks-cover .intro .heading {
-      margin-left: -150px; }
+      margin-left: 50px; }
       @media (max-width: 991.98px) {
         .site-blocks-cover .intro .heading {
           margin-left: 0; } }
@@ -858,3 +872,73 @@ h1, h2, h3, h4, h5, h6 {
     /* Firefox 18- */
     color: #ccc;
     font-style: italic; }
+
+
+
+/* my style */
+
+  .newspaper {
+    column-count: 2;
+    column-width: 400px;
+    column-gap: 40px;
+  }
+  .justify {
+    text-align: justify;
+  }
+    .topnav {
+      /* background-color: #333;  */
+      overflow: hidden;
+      float: right;
+      
+    }
+
+    .topnav nav{
+      float:right;
+      background-color: indigo;
+      margin-left: 40px;
+
+    } 
+ 
+      /* Style the links inside the navigation bar */
+      .topnav a {
+      color: black;
+      font-size:20px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+      color: red;
+      font-weight:bold;
+      
+      }
+
+    .topnav li {
+      display: inline-block; 
+      /* padding: 0px; */
+      padding: 0px;
+            
+    }
+    @media (max-width: 700px) {
+      .topnav li  {
+        background-color: hotpink; 
+        float:right;
+        overflow: auto;} }
+
+    .topnav li a {
+      display: block;
+      padding: 16px;
+      margin-left: -5px;
+      
+      }
+
+      @media (max-width: 630px) {
+        .topnav li a{
+          padding: 12px; 
+          margin-left: -10px;
+          } }
+
+
