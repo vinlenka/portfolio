@@ -1,9 +1,10 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: gray;
+  /* color: gray; */
+  color:#212529;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 ::-moz-selection {
@@ -545,11 +546,22 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 4rem; } }
   .site-blocks-cover .sub-text {
     font-size: 1.4rem;
-    color: gray;
+    /* color: gray; */
+    color: #212529;
     font-weight: 300; }
     @media (max-width: 991.98px) {
       .site-blocks-cover .sub-text {
-        color: #000; } }
+        color: #000; 
+        font-weight: 400;} 
+      }
+
+
+
+
+
+
+
+
   .site-blocks-cover .img-wrap {
     position: absolute;
     z-index: -1;
@@ -560,7 +572,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 50%;
     min-height: 600px;
     overflow: hidden;
-    border-bottom-right-radius: 200px; 
+    border-bottom-right-radius: 200px;
   }
  
 
@@ -578,7 +590,10 @@ h1, h2, h3, h4, h5, h6 {
       .site-blocks-cover .img-wrap {
         width: 100%;
         right: 0%;
-        top: 0; }
+        top: 0; 
+        opacity: 0.5;
+      }
+
         .site-blocks-cover .img-wrap .hero-slider:before {
           position: absolute;
           content: "";
@@ -600,6 +615,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         -o-object-fit: cover;
         object-fit: cover; }
+  
   .site-blocks-cover .intro {
     z-index: 3;
     position: relative; }
@@ -614,6 +630,14 @@ h1, h2, h3, h4, h5, h6 {
         .site-blocks-cover .intro .text {
           padding-left: 0; } }
 
+
+
+
+
+
+
+
+          
 .site-menu-toggle .menu-text {
   position: relative;
   top: -6px;
@@ -881,62 +905,12 @@ h1, h2, h3, h4, h5, h6 {
     column-count: 2;
     column-width: 400px;
     column-gap: 40px;
+    /* font-size: 20px;
+    color:#212529; */
   }
   .justify {
     text-align: justify;
   }
-    .topnav {
-      /* background-color: #333;  */
-      overflow: hidden;
-      float: right;
-      
-    }
 
-    .topnav nav{
-      float:right;
-      margin-left: 40px;
-
-    } 
- 
-      /* Style the links inside the navigation bar */
-      .topnav a {
-      color: black;
-      font-size:20px;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      
-      }
-      
-      /* Change the color of links on hover */
-      .topnav a:hover {
-      color: red;
-      font-weight:bold;
-      
-      }
-
-    .topnav li {
-      display: inline-block; 
-      /* padding: 0px; */
-      padding: 0px;
-            
-    }
-    @media (max-width: 700px) {
-      .topnav li  {
-        float:right;
-        overflow: auto;} }
-
-    .topnav li a {
-      display: block;
-      padding: 16px;
-      margin-left: -5px;
-      
-      }
-
-      @media (max-width: 630px) {
-        .topnav li a{
-          padding: 12px; 
-          margin-left: -10px;
-          } }
 
 

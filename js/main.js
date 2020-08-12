@@ -67,6 +67,7 @@ jQuery(document).ready(function($) {
 			}
 		})
 
+		// Menu items
 		$('body').on('click', '.js-menu-toggle', function(e) {
 			var $this = $(this);
 			e.preventDefault();
