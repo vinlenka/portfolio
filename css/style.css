@@ -115,14 +115,14 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none !important; }
 
 .site-section {
-  padding-top: 5em ; }
+  padding-top: 4em; }
 
   @media (min-width: 768px) {
     .site-section {
-      padding-top: 5em; } }
+      padding-top: 4em; } }
   
       .site-section.site-section-sm {
-    padding-top: 5em; }
+    padding-top: 4em; }
 
 .site-section-heading {
   font-size: 30px;
