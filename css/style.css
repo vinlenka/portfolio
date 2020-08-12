@@ -555,13 +555,6 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 400;} 
       }
 
-
-
-
-
-
-
-
   .site-blocks-cover .img-wrap {
     position: absolute;
     z-index: -1;
@@ -629,15 +622,7 @@ h1, h2, h3, h4, h5, h6 {
       @media (max-width: 991.98px) {
         .site-blocks-cover .intro .text {
           padding-left: 0; } }
-
-
-
-
-
-
-
-
-          
+     
 .site-menu-toggle .menu-text {
   position: relative;
   top: -6px;
@@ -905,8 +890,7 @@ h1, h2, h3, h4, h5, h6 {
     column-count: 2;
     column-width: 400px;
     column-gap: 40px;
-    /* font-size: 20px;
-    color:#212529; */
+
   }
   .justify {
     text-align: justify;
